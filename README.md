@@ -22,6 +22,9 @@ In order to run eslint:
 > npm run lint
 ```
 
+*In the eslintrc file, "es6": true is there because this will enable ES6 syntax*
+*i.e. const [ foo, baz ] = Promise.all([ fooP, bazP ]); will no longer show as a eslint error*
+
 For Production:
 
 ```
