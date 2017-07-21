@@ -9,7 +9,7 @@ First, you will need [Node.js](https://nodejs.org/en/) and a text editor of your
 
 ## Getting Started
 
-To start, install all the packages/library we require:
+To start, install all the packages/libraries we require:
 
 ```
 > npm install
@@ -25,7 +25,7 @@ In order to run eslint:
 ```
 
 *In the eslintrc file, "es6": true is there because this will enable ES6 syntax*
-*i.e. const [ foo, baz ] = Promise.all([ fooP, bazP ]); will no longer show as a eslint error*
+*i.e. const [ foo, baz ] = Promise.all([ fooP, bazP ]); will no longer show as an eslint error*
 
 For Production:
 
