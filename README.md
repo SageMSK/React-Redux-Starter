@@ -1,6 +1,6 @@
-# React with Redux Starter
+# React & Redux Starter
 
-This React/Redux starter uses:
+This React & Redux starter uses:
 - [React Router (v4)](https://github.com/ReactTraining/react-router)
 - [Redux-thunk](https://www.npmjs.com/package/redux-thunk)
 - [Prop-Types](https://www.npmjs.com/package/prop-types)
@@ -18,14 +18,7 @@ To start, install all the packages/libraries we require:
 
 This boilerplate supports both CSS and SASS files. It's your choice. It also has basic eslint recommendation setting and extra react linting as well.
 
-In order to run eslint:
-
-```
-> npm run lint
-```
-
-*In the eslintrc file, "es6": true is there because this will enable ES6 syntax*
-*i.e. const [ foo, baz ] = Promise.all([ fooP, bazP ]); will no longer show as an eslint error*
+For ESLint, we are using [airbnb config](https://www.npmjs.com/package/eslint-config-airbnb).
 
 For Production:
 
