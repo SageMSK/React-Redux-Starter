@@ -16,7 +16,7 @@ To start, install all the packages/libraries we require:
 > npm run dev
 ```
 
-This boilerplate supports both CSS and SASS files. It's your choice. It also has basic eslint recommendation setting and extra react linting as well.
+This boilerplate supports both CSS and SASS files. It's your choice.
 
 For ESLint, we are using [airbnb config](https://www.npmjs.com/package/eslint-config-airbnb).
 
